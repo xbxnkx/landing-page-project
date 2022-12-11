@@ -66,7 +66,7 @@ img#rat-in-alley {
 #container-two {
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -90,16 +90,11 @@ img#rat-in-alley {
     font-weight: 700px;
 }
 
-img {
-    display: flex;
-    flex-shrink: auto;
-    max-width: 15%;
-    max-height: 15%;
-    padding: 8px;
-    border-radius: 12px;
-}
-
 .members {
     display: flex;
-    align-items: center;
+    flex-shrink: auto;
+    max-width: 30%;
+    max-height: 30%;
+    padding: 8px;
+    border-radius: 12px;
 }
