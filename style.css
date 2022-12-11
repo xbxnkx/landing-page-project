@@ -16,10 +16,90 @@ header {
 }
 
 footer {
+    display: flex;
+    justify-content: center;
     text-align: center;
     font-size: 10px;
+    margin: 8px;
 }
 
 ul {
     list-style: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: max-content;
+    border: 0px;
+    flex-wrap: wrap;
+    margin: 16px;
+    margin-left: none;
+}
+
+p#testimonial {
+    font-style: italic;
+}
+
+button {
+    border: none;
+    background-color: #86aff6;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+}
+
+img#rat-in-alley {
+    display: flex;
+    flex-shrink: 0;
+    align-items: right;
+    margin-top: 4px;
+}
+
+#container-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-two {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#container-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #86aff6;
+    padding: 8px;
+    margin: 8px;
+}
+
+#container-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-a-room {
+    font-size: 24px;
+    font-weight: 700px;
+}
+
+img {
+    display: flex;
+    flex-shrink: auto;
+    max-width: 15%;
+    max-height: 15%;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+.members {
+    display: flex;
+    align-items: center;
 }
