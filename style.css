@@ -27,6 +27,14 @@ ul {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+}
+
+a:before, a:visited {
+    color: white;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -42,12 +50,15 @@ p#testimonial {
     font-style: italic;
 }
 
-button {
-    border: none;
+a.button {
+    border: 4px;
+    margin: 8px;
+    padding: 8px;
     background-color: #86aff6;
     color: white;
     border-radius: 12px;
     text-align: center;
+    text-overflow: clip;
 }
 
 img#rat-in-alley {
