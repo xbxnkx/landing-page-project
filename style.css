@@ -71,13 +71,14 @@ img#rat-in-alley {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 16px;
 }
 
 #container-two {
     display:flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 #container-three {
@@ -107,4 +108,5 @@ img#rat-in-alley {
     max-height: 30%;
     padding: 8px;
     border-radius: 12px;
+    justify-content: center;
 }
